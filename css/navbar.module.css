@@ -1,0 +1,24 @@
+.main_nav{
+  /* border-bottom: 1px solid #ccc;
+  box-shadow: 0 5px 10px -7px #ccc; */
+  height: var(--navHeight);
+}
+.main_nav > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_nav .logo{
+  font-size: 1.5rem;
+}
+.main_nav .menus{
+  display: flex;
+  justify-content: space-around;
+}
+.main_nav .menus .menu_item{
+  margin: 0 7px;
+  padding: 0 7px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
