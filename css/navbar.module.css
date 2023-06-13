@@ -1,22 +1,27 @@
-.main_nav{
-  /* border-bottom: 1px solid #ccc;
-  box-shadow: 0 5px 10px -7px #ccc; */
+.main_nav {
   height: var(--navHeight);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(20px);
+  background-color: #ffffffee;
+  box-shadow: 0 5px 10px -7px #ccc;
+  transition: all 0.14s linear;
 }
-.main_nav > div{
+.main_nav > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.main_nav .logo{
+.main_nav .logo {
   font-size: 1.5rem;
 }
-.main_nav .menus{
+.main_nav .menus {
   display: flex;
   justify-content: space-around;
 }
-.main_nav .menus .menu_item{
-  margin: 0 7px;
+.main_nav .menus .menu_item {
+  margin: 0 15px;
   padding: 0 7px;
   cursor: pointer;
   font-size: 1rem;

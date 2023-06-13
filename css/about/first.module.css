@@ -1,0 +1,67 @@
+.first {
+  display: flex;
+  gap: 50px;
+  margin: 35px 0 110px;
+  padding: 20px;
+}
+.first img {
+  border-radius: 10px;
+  min-width: 45%;
+  width: 45%;
+  filter: drop-shadow(0 0 35px rgba(var(--blueLi) / 20%));
+  height: auto;
+}
+.first .right {
+  flex-grow: 1;
+}
+.first .right .top {
+  padding: 5px 0;
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: var(--blue);
+  font-weight: 600;
+}
+.first .right .head {
+  font-size: 40px;
+  color: #1b2336;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.first .right .para {
+  font-size: 15px;
+  color: #415675;
+  padding-bottom: 20px;
+  line-height: 22px;
+}
+.first .right .itemCons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin: 20px 0;
+}
+.first .right .itemCons .item{
+  display: flex;
+  gap: 25px;
+}
+.first .right .itemCons .item .name{
+  color: #1b2336;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.first .right .itemCons .item .desc{
+  color: #415675;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.first .right button{
+  background-color: #ffc455;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 17px 34px;
+  border-radius: 7px;
+  margin-top: 20px;
+}

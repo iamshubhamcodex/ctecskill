@@ -1,0 +1,52 @@
+.testimonial {
+  margin-top: 70px;
+}
+.testimonial > .top {
+  margin-bottom: 14px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+}
+.testimonial h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.testimonial .containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.testimonial .containers .card1 {
+  background-color: white;
+  width: 370px;
+  height: max-content;
+  margin: 36px 0 40px;
+  padding: 40px 30px 36px 40px;
+}
+.testimonial .containers .card1 .first {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 28px;
+}
+.testimonial .containers .card1 .first .img img {
+  z-index: 0;
+  border-radius: 50%;
+}
+.testimonial .containers .card1 .first .name {
+  flex-grow: 1;
+}
+.testimonial .containers .card1 .first .name .top {
+  font-size: 20px;
+}
+.testimonial .containers .card1 .first .name .role {
+  font-size: 14px;
+  color: var(--blue);
+  font-weight: 600;
+}
+.testimonial .containers .card1 .review p {
+  color: #415674;
+  font-size: 15px;
+  /* margin-bottom: 15px; */
+}

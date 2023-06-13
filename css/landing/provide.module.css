@@ -1,0 +1,54 @@
+.provide{
+  padding-top: 80px;
+  display: flex;
+}
+.provide .left{
+  width: 62%;
+}
+.provide .left img{
+  filter: drop-shadow(0 0 50px rgb(var(--blueLi) / 25%));
+}
+.provide .right{
+  width: 38%;
+  margin-top: 50px;
+  padding: 15px;
+}
+.provide .right .top{
+  color: var(--blue);
+  font-size: 14px;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+.provide .right h2{
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 40px;
+}
+.provide .right span{
+  font-size: 14px;
+  color: #415674;
+}
+.provide .right .item:first-of-type{
+  margin-top: 30px;
+}
+.provide .right .item{
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+}
+.provide .right .item .det h3{
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.provide .right .item .det p{
+  font-size: 14px;
+  color: #415674;
+}
+.provide .right button{
+  background-color: rgb(8, 221, 150);
+  color: white;
+  font-weight: 600;
+  padding: 12px 25px;
+  font-size: 16px;
+}
