@@ -1,4 +1,4 @@
-import Main from "@/components/About/Main";
+import Main from "@/components/Course/Main";
 import Testimonials from "@/components/Landing/Testimonials";
 import { Raleway } from "next/font/google";
 
@@ -21,6 +21,7 @@ export default function AboutLayout({
     <>
       <Main />
       <div className="maxWidth">{children}</div>
+
       <Testimonials />
       <p
         style={{
@@ -35,7 +36,8 @@ export default function AboutLayout({
         }}
         className={raleway?.className}
       >
-        We are committed to educate the nation with our Best Teachers
+        We always serves you the best Courses we can give. <br /> Trust on us
+        and give a wing to your career
       </p>
     </>
   );

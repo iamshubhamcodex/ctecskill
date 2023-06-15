@@ -18,7 +18,9 @@ export default function Navbar() {
             <Link href={"/about"} className={styles.menu_item}>
               About
             </Link>
-            <div className={styles.menu_item}>Courses</div>
+            <Link href={"/courses"} className={styles.menu_item}>
+              Courses
+            </Link>
             <div className={styles.menu_item}>Blog</div>
             <div className={styles.menu_item}>Contact</div>
           </div>

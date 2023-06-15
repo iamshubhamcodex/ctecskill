@@ -1,0 +1,33 @@
+.conts{
+  padding: 55px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+.conts .each{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 30px -5px rgba(var(--blueLi )/ 30%);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.conts .each .num{
+  font-size: 40px;
+  font-weight: 700;
+  color: #1b2336;
+  position: relative;
+}
+.conts .each .num::after{
+  content: '+';
+  position: absolute;
+  right: 5px;
+  top: -20px;
+  color: var(--blue);
+  font-weight: 400;
+}
+.conts .each .tag{
+  font-size: 16px;
+  color: #415674;
+}

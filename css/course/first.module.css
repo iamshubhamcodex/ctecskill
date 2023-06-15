@@ -1,0 +1,59 @@
+.courseGrid{
+  margin: 80px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.courseGrid .course{
+  box-shadow: 0 0 30px 0 rgba(0 0 0 / 20%);
+  border-radius: 7px;
+}
+.courseGrid .course > img{
+  width: 100%;
+  height: auto;
+}
+.courseGrid .course .det{
+  position: relative;
+  padding: 40px 30px 40px 20px;
+}
+.courseGrid .course .det > span{
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: var(--blue);
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  display: grid;
+  place-content: center;
+  box-shadow: 5px 5px 14px -7px var(--blue );
+  cursor: pointer;
+}
+.courseGrid .course .det .tag{
+  padding: 0 20px;
+  background-color: #66cea9;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+  width: max-content;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.courseGrid .course .det .title{
+  color: #1b2336;
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+.courseGrid .course .det .by{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.courseGrid .course .det .by img{
+  border-radius: 50%;
+}
+.courseGrid .course .det .by .name{
+  color: #415674;
+  font-size: 16px;
+}
