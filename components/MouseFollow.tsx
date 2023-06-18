@@ -2,8 +2,11 @@
 
 export default function MouseFollow() {
   return (
-    <span className="cursorFollow" id="follow">
-      fd
-    </span>
+    <>
+      <style>{`.cursorFollow{--x:-108px;--y:-109px;}`}</style>
+      <span className="cursorFollow" id="follow">
+        fd
+      </span>
+    </>
   );
 }

@@ -23,8 +23,7 @@ export default function Main() {
           style={{
             position: "absolute",
             inset: 0,
-            background:
-              "linear-gradient(to right , rgba(var(--blueLi) / 80%), rgba(var(--blueLi) / 40%))",
+            background: "rgba(var(--blueLi) / 40%)",
             zIndex: 1,
           }}
         ></span>
@@ -32,7 +31,7 @@ export default function Main() {
           className="maxWidth"
           style={{ fontSize: 70, color: "white", fontWeight: 600, zIndex: 2 }}
         >
-          Courses
+          Blogs
         </p>
       </div>
     </>

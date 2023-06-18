@@ -1,0 +1,67 @@
+.contact {
+  padding: 100px 0;
+}
+.contact .top {
+  color: var(--blue);
+  font-size: var(--textSize);
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact .title {
+  font-size: var(--textMSize);
+  color: var(--textBlack);
+  margin-bottom: 45px;
+  text-align: center;
+  font-weight: 600;
+}
+.contact .row {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0;
+}
+.contact
+  .row
+  .input:has(input:focus, input:hover, textarea:focus, textarea:hover) {
+  border-color: var(--blue);
+}
+.contact
+  .row
+  .input:has(input:not(:placeholder-shown), textarea:not(:placeholder-shown)) {
+  border-color: #66cea9;
+}
+.contact .row .input {
+  flex-grow: 1;
+  display: flex;
+  border: 2px solid #dfdfdf;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.contact .row .input input,
+.contact .row .input textarea {
+  padding: 20px 40px;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+.contact .row .input input::placeholder {
+  color: var(--textBlack);
+}
+.contact .form > button:hover {
+  background-color: var(--blue);
+  box-shadow: 7px 7px 24px -10px var(--blue);
+}
+.contact .form > button {
+  border-radius: 7px;
+  padding: 15px 30px;
+  font-size: 18px;
+  float: right;
+  background-color: #66cea9;
+  font-weight: 500;
+  color: white;
+  transition: all 0.2s ease;
+}

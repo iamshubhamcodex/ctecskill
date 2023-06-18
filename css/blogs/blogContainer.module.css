@@ -1,0 +1,53 @@
+.blogContainer {
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.blogContainer .blog > img {
+  width: 100%;
+  height: 240px;
+}
+.blogContainer .blog {
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.blogContainer .blog .det {
+  padding: 36px 30px 40px 30px;
+}
+.blogContainer .blog .det .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--textMuted);
+  font-size: var(--textSize);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.blogContainer .blog .det .title {
+  font-size: var(--textTSize);
+  margin-bottom: 15px;
+  color: var(--textBlack);
+  font-weight: 600;
+}
+.blogContainer .blog .det .desc {
+  font-size: var(--textLSize);
+  color: var(--textMuted);
+  margin-bottom: 15px;
+}
+.blogContainer .blog .det button {
+  padding: 15px 40px;
+  font-weight: 600;
+  font-size: var(--textSize);
+  /* height: 60px; */
+  color: var(--textBlack);
+  background-color: #f2f6ff;
+  border-radius: 7px;
+  transition: all 0.2s ease;
+}
+.blogContainer .blog .det button:hover {
+  background-color: var(--blue);
+  box-shadow: 7px 7px 24px -10px var(--blue);
+  color: white;
+}

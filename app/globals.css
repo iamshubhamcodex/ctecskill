@@ -7,6 +7,13 @@
   --bgColor: #fffcf110;
   --blue: #4b83fc;
   --blueLi: 75 131 252;
+  --textMuted: #415674;
+  --textBlack: #1b2336;
+  --textSize: 14px;
+  --textLSize: 15px;
+  --textTSize: 24px;
+  --textMSize: 40px;
+  --textHSize: 60px;
 
   --cardPadding: 15px 25px;
 }
@@ -25,7 +32,7 @@ button {
   border-radius: 20px;
   cursor: pointer;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
